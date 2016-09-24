@@ -1,4 +1,4 @@
-<% project_name = 'rails-api-template' %>
+<% project_name = 'trip-planner-api' %>
 
 default: &default
   adapter: postgresql
