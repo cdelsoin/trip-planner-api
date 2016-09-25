@@ -8,4 +8,7 @@ Rails.application.routes.draw do
 
   # routes for trips
   resources :trips, except: [:new, :edit]
+
+  # routs for plans
+  resources :plans, except: [:new, :edit]
 end

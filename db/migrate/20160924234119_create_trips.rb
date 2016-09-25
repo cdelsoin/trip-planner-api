@@ -5,7 +5,7 @@ class CreateTrips < ActiveRecord::Migration
       t.string :location
       t.date :start_date # yyyy-mm-dd !mm-dd-yyyy
       t.date :end_date # yyyy-mm-dd !mm-dd-yyyy
-      t.string :who
+      t.string :who # comma separated string
       t.string :url
       t.string :more_info
 
