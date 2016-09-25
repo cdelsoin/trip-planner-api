@@ -50,7 +50,7 @@ class TripsController < OpenReadController
   end
 
   def trip_params
-    params.require(:trip).permit(:text)
+    params.require(:trip).permit(:location, :start_date, :end_date, :who, :url, :more_info)
   end
 
   private :set_trip, :trip_params

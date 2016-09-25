@@ -29,11 +29,11 @@ ActiveRecord::Schema.define(version: 20160925020700) do
     t.string   "location"
     t.date     "start_date"
     t.date     "end_date"
-    t.string   "who",        default: [],              array: true
+    t.string   "who"
     t.string   "url"
     t.string   "more_info"
-    t.datetime "created_at",              null: false
-    t.datetime "updated_at",              null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
     t.integer  "user_id"
   end
 
