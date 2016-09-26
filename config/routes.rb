@@ -5,4 +5,10 @@ Rails.application.routes.draw do
   delete '/sign-out/:id' => 'users#signout'
   patch '/change-password/:id' => 'users#changepw'
   resources :users, only: [:index, :show]
+
+  # routes for trips
+  resources :trips, except: [:new, :edit]
+
+  # routs for plans
+  resources :plans, except: [:new, :edit]
 end
