@@ -1,9 +1,9 @@
 #!/bin/bash
 
 curl --include --request DELETE http://localhost:3000/plans/1 \
-  --header "Authorization: Token token=BAhJIiU3MzE4YzdmMGM2MDYzN2ZhYjQyZGY4OGE3MjdiZGU5ZQY6BkVG--10e43c59ac790877055a3cf4b0a56b23f5afdd5e" \
+  --header "Authorization: Token token=BAhJIiVhMzE1MWUwZDJmYzM1ZmIwNWFkMDRjNTY5ZDIwNTA4MwY6BkVG--95bc9c479401e75b58d04618f9118638860e4fe6" \
 
-  # HTTP/1.1 204 No Content 
+  # HTTP/1.1 204 No Content
   # X-Frame-Options: SAMEORIGIN
   # X-Xss-Protection: 1; mode=block
   # X-Content-Type-Options: nosniff

@@ -1,16 +1,16 @@
 #!/bin/bash
 
 curl --include --request POST http://localhost:3000/trips \
-  --header "Authorization: Token token=BAhJIiU3MzE4YzdmMGM2MDYzN2ZhYjQyZGY4OGE3MjdiZGU5ZQY6BkVG--10e43c59ac790877055a3cf4b0a56b23f5afdd5e" \
+  --header "Authorization: Token token=BAhJIiVhMzE1MWUwZDJmYzM1ZmIwNWFkMDRjNTY5ZDIwNTA4MwY6BkVG--95bc9c479401e75b58d04618f9118638860e4fe6" \
   --header "Content-Type: application/json" \
   --data '{
     "trip": {
       "location": "Boston, MA",
-      "start_date": "2016-01-09",
-      "end_date": "2016-05-09",
+      "start_date": "2016-01-10",
+      "end_date": "2016-03-10",
       "who": "All, Jim, Susan, Timmy, Sally",
-      "url": "http://facebook.com",
-      "more_info": "woooooooooo, lets go to boston!!!!"
+      "url": "http://boston.com",
+      "more_info": "woooo, our first time in Boston! PAHK DA CAHHH!"
     }
   }'
 

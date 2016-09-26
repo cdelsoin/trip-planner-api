@@ -1,17 +1,18 @@
 #!/bin/bash
 
 curl --include --request POST http://localhost:3000/plans \
-  --header "Authorization: Token token=BAhJIiU3MzE4YzdmMGM2MDYzN2ZhYjQyZGY4OGE3MjdiZGU5ZQY6BkVG--10e43c59ac790877055a3cf4b0a56b23f5afdd5e" \
+  --header "Authorization: Token token=BAhJIiVhMzE1MWUwZDJmYzM1ZmIwNWFkMDRjNTY5ZDIwNTA4MwY6BkVG--95bc9c479401e75b58d04618f9118638860e4fe6" \
   --header "Content-Type: application/json" \
   --data '{
     "plan": {
-      "who": "Dory, Marlin",
-      "what": "Going to find Nemo",
-      "date": "2016-09-28",
-      "time": "11:00:00",
-      "location": "The Ocean",
-      "url": "http://findingnemo.com",
-      "more_details": "this will be a wacky adventure"
+      "who": "Timmy, Sally",
+      "what": "Land in Boston",
+      "date": "2016-01-10",
+      "time": "010:00:00",
+      "location": "Logan Airport",
+      "url": "http://loganairport.com",
+      "more_details": "We leave from Chicago around 8am",
+      "trip_id": "1"
     }
   }'
 
