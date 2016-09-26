@@ -1,19 +1,23 @@
 #!/bin/bash
 
-curl --include --request PATCH http://localhost:3000/plans/12 \
-  --header "Authorization: Token token=BAhJIiU3MzE4YzdmMGM2MDYzN2ZhYjQyZGY4OGE3MjdiZGU5ZQY6BkVG--10e43c59ac790877055a3cf4b0a56b23f5afdd5e" \
+curl --include --request PATCH http://localhost:3000/plans/7 \
+  --header "Authorization: Token token=BAhJIiVhMzE1MWUwZDJmYzM1ZmIwNWFkMDRjNTY5ZDIwNTA4MwY6BkVG--95bc9c479401e75b58d04618f9118638860e4fe6" \
   --header "Content-Type: application/json" \
   --data '{
     "plan": {
-      "who": "Dory, Marlin, Nemo",
-      "what": "Going to find Nemo",
-      "date": "2016-09-28",
-      "time": "17:00:00",
-      "location": "The Ocean/Some Land",
-      "url": "http://findingnemo.com",
-      "more_details": "this will be a wacky adventure"
+      "who": "Gabe",
+      "what": "going to a palette picker meet-up",
+      "date": "2017-03-10",
+      "time": "018:30:00",
+      "location": "Las Vegas Convention Center",
+      "url": "http://lvcva.com",
+      "more_details": "I really need to make sure I drop by this Palette meet-up",
+      "important": "true",
+      "strict_time": "true",
+      "trip_id": "2"
     }
   }'
+
 
 
   # RESPONSE

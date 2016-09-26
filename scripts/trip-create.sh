@@ -5,12 +5,12 @@ curl --include --request POST http://localhost:3000/trips \
   --header "Content-Type: application/json" \
   --data '{
     "trip": {
-      "location": "Boston, MA",
-      "start_date": "2016-01-10",
-      "end_date": "2016-03-10",
-      "who": "All, Jim, Susan, Timmy, Sally",
-      "url": "http://boston.com",
-      "more_info": "woooo, our first time in Boston! PAHK DA CAHHH!"
+      "location": "Las Vegas, NV",
+      "start_date": "2017-03-10",
+      "end_date": "2017-03-13",
+      "who": "All, Cliff, Jason, Gabe, Jordan, Josh",
+      "url": "http://lasvegas.com",
+      "more_info": "woooooo, GUUUYYYSSS TRIIIPPP"
     }
   }'
 
