@@ -1,6 +1,6 @@
 #!/bin/bash
 
-curl --include --request PATCH http://localhost:3000/plans/7 \
+curl --include --request PATCH http://localhost:3000/plans/28 \
   --header "Authorization: Token token=BAhJIiVhMzE1MWUwZDJmYzM1ZmIwNWFkMDRjNTY5ZDIwNTA4MwY6BkVG--95bc9c479401e75b58d04618f9118638860e4fe6" \
   --header "Content-Type: application/json" \
   --data '{
