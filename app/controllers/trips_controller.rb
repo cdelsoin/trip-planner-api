@@ -1,10 +1,11 @@
-class TripsController < OpenReadController
+class TripsController < ProtectedController
   before_action :set_trip, only: [:update, :destroy]
 
   # GET /trips
   # GET /trips.json
   def index
-    @trips = Trip.all
+    # @trips = Trip.all
+    @trips = current_user.trips
 
     render json: @trips
   end
