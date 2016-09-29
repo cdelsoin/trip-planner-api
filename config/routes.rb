@@ -7,7 +7,9 @@ Rails.application.routes.draw do
   resources :users, only: [:index, :show]
 
   # routes for trips
-  resources :trips, except: [:new, :edit]
+  resources :trips, except: [:new, :edit] do
+    resources :plans, only: [:index, :create]
+  end
 
   # routs for plans
   resources :plans, except: [:new, :edit]
