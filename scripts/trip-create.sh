@@ -1,7 +1,7 @@
 #!/bin/bash
 
 curl --include --request POST http://localhost:3000/trips \
-  --header "Authorization: Token token=BAhJIiVhMzE1MWUwZDJmYzM1ZmIwNWFkMDRjNTY5ZDIwNTA4MwY6BkVG--95bc9c479401e75b58d04618f9118638860e4fe6" \
+  --header "Authorization: Token token=BAhJIiU3ODA2YTU1ZjcxYzhjNGUyNmRkNjQwMTQ1YzYyZGE3MwY6BkVG--bd0c79b64ce1d905c74e5019af3deed8b2fc3d22" \
   --header "Content-Type: application/json" \
   --data '{
     "trip": {

@@ -1,5 +1,5 @@
 class UserSerializer < ActiveModel::Serializer
-  attributes :id, :email, :trip_id, :trips
+  attributes :id, :email, :trips
 
   def trips
     object.trips.pluck(:id)

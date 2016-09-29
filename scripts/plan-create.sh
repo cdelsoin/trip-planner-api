@@ -1,20 +1,20 @@
 #!/bin/bash
 
 curl --request POST http://localhost:3000/plans \
-  --header "Authorization: Token token=BAhJIiVhMzE1MWUwZDJmYzM1ZmIwNWFkMDRjNTY5ZDIwNTA4MwY6BkVG--95bc9c479401e75b58d04618f9118638860e4fe6" \
+  --header "Authorization: Token token=BAhJIiU3ODA2YTU1ZjcxYzhjNGUyNmRkNjQwMTQ1YzYyZGE3MwY6BkVG--bd0c79b64ce1d905c74e5019af3deed8b2fc3d22" \
   --header "Content-Type: application/json" \
   --data '{
     "plan": {
       "who": "Cliff, Jason, Josh, Jordan",
       "what": "chill out by the pool",
-      "date": "2017-03-10",
-      "time": "018:30:00",
+      "date": "09/30/16",
+      "time": "6:30 PM",
       "location": "Caesars Palace",
       "url": "http://caesars.com",
       "more_details": "we can just hang out for a bit before all the fun starts",
       "important": "false",
       "strict_time": "false",
-      "trip_id": "2"
+      "trip_id": "1"
     }
   }'
 

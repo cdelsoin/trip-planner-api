@@ -4,8 +4,8 @@ class CreatePlans < ActiveRecord::Migration
     create_table :plans do |t|
       t.string :who # choices available from who defined in trip
       t.string :what
-      t.date :date # yyyy-mm-dd
-      t.time :time # hh:mm:ss
+      t.string :date
+      t.string :time
       t.string :location
       t.string :more_details
       t.string :url
