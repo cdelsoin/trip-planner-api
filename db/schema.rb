@@ -28,8 +28,8 @@ ActiveRecord::Schema.define(version: 20160926155623) do
   create_table "plans", force: :cascade do |t|
     t.string   "who"
     t.string   "what"
-    t.date     "date"
-    t.time     "time"
+    t.string   "date"
+    t.string   "time"
     t.string   "location"
     t.string   "more_details"
     t.string   "url"
@@ -44,8 +44,8 @@ ActiveRecord::Schema.define(version: 20160926155623) do
 
   create_table "trips", force: :cascade do |t|
     t.string   "location"
-    t.date     "start_date"
-    t.date     "end_date"
+    t.string   "start_date"
+    t.string   "end_date"
     t.string   "who"
     t.string   "url"
     t.string   "more_info"
