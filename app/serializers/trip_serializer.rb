@@ -6,7 +6,6 @@ class TripSerializer < ActiveModel::Serializer
     scope == object.user
   end
 
-
   def plans
     object.plans.pluck(:id)
   end
