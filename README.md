@@ -1,8 +1,12 @@
 
-App: https://cdelsoin.github.io/trip-planner-app/
-Api: https://trip-planner-api.herokuapp.com/
-App Repo: https://github.com/cdelsoin/trip-planner-app
-Api Repo: https://github.com/cdelsoin/trip-planner-api
+## Deployed App
+https://cdelsoin.github.io/trip-planner-app/
+
+## Deployed Api
+https://trip-planner-api.herokuapp.com/
+
+## Deployed App Repo: 
+https://github.com/cdelsoin/trip-planner-app
 
 This is the API associated with the Trip Planner App at the provided link above. This API allows Users to have many Trips and Trips to have many plans.
 
@@ -10,6 +14,26 @@ Complete with associated cURL scripts for all routes
 
 Wireframe
 http://imgur.com/a/f4i72
+
+### Trips
+
+| Verb   | URI Pattern            | Controller#Action |
+|--------|------------------------|-------------------|
+| GET | `/trips` | `trips#index` |
+| GET | `/trips/:id` | `trips#show` |
+| POST | `/trips` | `trips#create` |
+| PATCH | `/trips/:id` | `trips#update` |
+| DELETE | `/trips/:id` | `trips#destroy` |
+
+### Plans
+
+| Verb   | URI Pattern            | Controller#Action |
+|--------|------------------------|-------------------|
+| GET | `/trips/:trip_id/plans` | `plans#index` |
+| POST | `/trips/:trip_id/plans` | `plans#create` |
+| PATCH | `/plans/:id` | `plans#update` |
+| DELETE | `/plans/:id` | `plan#destroy` |
+
 
 ### Authentication
 
